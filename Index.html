@@ -6,15 +6,19 @@
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <link rel="stylesheet" 
                     href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
-                    
+                    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link rel="stylesheet" href="styles/debug.css">
                     <title>Creación de Tareas</title>
                 </head>
+                
                 <body>
+                  <div class="container">
                     <article class="panel has-text-centered">
                           <p class="panel-heading">
                             Aplicación para control de Tareas
                           </p>
                     </article>
+                    
                     <div class="columns">
                         <div class="column is-3">
                             <div class="notification is-dark" style="height: 500px;">
@@ -25,8 +29,8 @@
                              <textarea class="textarea is-primary" placeholder="Descripción de la tarea" id = "description"></textarea>
                              <br>
                              
-                             <div class="select is-rounded">
-                                <select id="responsable">
+                             <div class="select is-rounded" style="width: 100%;">
+                                <select id="responsable" style="width: 100%;">
                                   <option>Responsable</option>
                                   <option>Juan</option>
                                   <option>Mayer</option>
@@ -66,6 +70,7 @@
                             <div class="notification is-link has-text-centered" style="height: 100%;" id="ToDo">
                                 <h1 class="title is-4">Por Hacer</h1>
                                 
+                                
                             
                             </div>
                           </div>
@@ -74,6 +79,7 @@
                           <div class="contenedor" style="height: 100%;" >
                         <div class="notification is-warning has-text-centered" style="height: 100%;" id="Doing">
                             <h1 class="title is-4">En progreso</h1>
+                            
                             <div style="height: 5px;"></div>
                             
                         </div>
@@ -83,6 +89,7 @@
                           <div class="contenedor" style="height: 100%;" >
                             <div class="notification is-success has-text-centered" style="height: 100%;" id="TaskDo">
                                 <h1 class="title is-4 has-text-centered">Hecho</h1>
+                                
                               </div>
                                                           
                         </div>
@@ -92,8 +99,9 @@
 
 
 
-                    
+                  </div>
                 </body>
+
                 <footer class="footer">
                     <div class="content has-text-centered">
                       <p>
@@ -105,6 +113,8 @@
                   
                 </html>
                 <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+                <script src="Dragable.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
                 <script src="Index.js"></script>
                
                 

@@ -23,6 +23,22 @@
             "details": "Crear vista modal de adición de tareas",
             "state":  "TaskDo",
             "deadline": "2022/09/01"            
+        },
+        {
+            "id": 1,
+            "title": "Adicionar input",
+            "person": "Juan Torres",
+            "details": "Crear vista modal de adición de tareas",
+            "state":  "ToDo",
+            "deadline": "2022/09/01"            
+        },
+        {
+            "id": 1,
+            "title": "Adicionar input",
+            "person": "Juan Torres",
+            "details": "Crear vista modal de adición de tareas",
+            "state":  "ToDo",
+            "deadline": "2022/09/01"            
         }
     ]
 }

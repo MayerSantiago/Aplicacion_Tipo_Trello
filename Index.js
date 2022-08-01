@@ -23,7 +23,7 @@ axios.get(API_URL)
 
 
 
-alert("funciono");
+
 var btnsave = document.getElementById('save')
 var tittle = document.getElementById('tittle')
 var description = document.getElementById('description')
@@ -123,40 +123,4 @@ btnsave.addEventListener("click", myFunction
 
 
 
-
-
-
-// doing.addEventListener('dragover', e =>{
-//   e.preventDefault();
-//   console.log("dragover");
-  
-// })
-
-// doing.addEventListener("drop", e =>{
-//   card = document.querySelector('container')
-//   doing.appendChild(card)
-// })
-
-
-// todo.addEventListener('dragover', e =>{
-//   e.preventDefault();
-//   console.log("dragover");
-  
-// })
-
-// todo.addEventListener("drop", e =>{
-//   card = document.getElementById('container')
-//   todo.appendChild(card)
-// })
-
-// taskdo.addEventListener('dragover', e =>{
-//   e.preventDefault();
-//   console.log("dragover");
-  
-// })
-
-// taskdo.addEventListener("drop", e =>{
-//   card = document.getElementById('container')
-//   taskdo.appendChild(card)
-// })
 

@@ -2,43 +2,43 @@
     "task": [
         {
             "id": 1,
-            "title": "Adicionar input",
-            "person": "Juan Torres",
-            "details": "Crear vista modal de adición de tareas",
+            "title": "Correr Script",
+            "person": "Mayer Beltrán",
+            "details": "Correr vistas de informes en SQL server",
             "state":  "ToDo",
-            "deadline": "2022/09/01"            
+            "deadline": "2022/10/01"            
         },
         {
-            "id": 1,
-            "title": "Adicionar input",
-            "person": "Juan Torres",
-            "details": "Crear vista modal de adición de tareas",
+            "id": 2,
+            "title": "Arreglo de equipo",
+            "person": "Mayer Beltrán",
+            "details": "Revisar board de torre de equipo",
             "state":  "Doing",
             "deadline": "2022/09/01"            
         },
         {
-            "id": 1,
-            "title": "Adicionar input",
-            "person": "Juan Torres",
-            "details": "Crear vista modal de adición de tareas",
+            "id": 3,
+            "title": "Montar datos en BQ",
+            "person": "Mayer Beltrán",
+            "details": "Crear tablas en BQ",
             "state":  "TaskDo",
-            "deadline": "2022/09/01"            
+            "deadline": "2022/11/01"            
         },
         {
-            "id": 1,
-            "title": "Adicionar input",
-            "person": "Juan Torres",
-            "details": "Crear vista modal de adición de tareas",
+            "id": 4,
+            "title": "Enviar comunicado",
+            "person": "Mayer Beltrán",
+            "details": "programas envio de información",
             "state":  "ToDo",
-            "deadline": "2022/09/01"            
+            "deadline": "2022/08/01"            
         },
         {
-            "id": 1,
-            "title": "Adicionar input",
-            "person": "Juan Torres",
-            "details": "Crear vista modal de adición de tareas",
+            "id": 5,
+            "title": "Crear pagian web",
+            "person": "Mayer Beltrán",
+            "details": "Desarrollo de pagina web para comité",
             "state":  "ToDo",
-            "deadline": "2022/09/01"            
+            "deadline": "2022/09/23"            
         }
     ]
 }
